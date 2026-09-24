@@ -1,0 +1,38 @@
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+*.Identifier
+
+# エディタ/IDE固有のファイル
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker関連
+.docker/
+docker-compose.override.yml
+
+# Qtインストーラー関連（念のため）
+qt-installer-nonintaractive.qs
+*.run
+
+# 一時ファイルと中間生成物
+*.tar
+*.tar.gz
+*.log
+.vscode/
+tmp/
+temp/
+
+# ビルドディレクトリと一時イメージ
+build/
+node_modules/
+dist/
+
+shared_data/
+shared_data_sim/
+
+ib2_user_ws/
